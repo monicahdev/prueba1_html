@@ -2,6 +2,7 @@ body {
     height: 100vh;
     color: #1f1f1f;
     background: linear-gradient(to bottom, #bada55, #c0ffee);
+
   }
 h1 {
     color: hotpink;
@@ -18,4 +19,37 @@ p {
 }
 .tres {
     color:blueviolet;
+}
+a {
+    font-family: monospace;
+    font-size: 14px;
+    color: mediumvioletred;
+}
+  
+a:link {
+    text-decoration: none;
+    background-color: teal;
+    padding: 5px;
+    display: inline-block;
+}
+  
+a[href="https://es.wikipedia.org/wiki/Terrier_escoc%C3%A9s"] {
+    background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc3LTAxODUtbDE0b2VxNXYuanBn.jpg") no-repeat 100% 0;
+    background-size: 26px;
+    padding-right: 28px;  
+}
+  a:visited {
+    color: purple;
+}
+  
+a:focus {
+    color: gold;
+}
+  
+a:hover {
+    background-color: pink;
+}
+  
+a:active {
+    padding: 15px;
 }
